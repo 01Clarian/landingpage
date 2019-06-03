@@ -1,0 +1,48 @@
+
+  
+  .neon {
+    color: rgba(255, 255, 255, 0.824);
+    text-shadow:
+      0 0 20px #fff,
+      0 0 40px #0ff,
+      0 0 80px #0ff,
+      0 0 80px blue,
+      0 0 100px #0ff,
+      0 0 150px #0ff;
+      opacity:0.8;
+  }
+
+
+
+#textBox {
+	max-width: 70%;
+	display: block;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+	color: whitesmoke;
+	line-height: 150%;
+	font-variant: small-caps;
+	font-family: 'Audiowide';
+	font-size: calc(5px + 4vw);
+	display: flex;
+	flex-flow: row wrap;
+  justify-content: center;
+}
+   
+  .textSec {
+		margin: 0 15px 0 15px;
+			transition: all .1s ease;
+			margin: .5px;
+    }
+    
+.shadows {
+  text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+  color: white;
+  font: 1.5em Georgia, serif;
+}
+
+.shadows2 {
+  text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+  color: white;
+}
